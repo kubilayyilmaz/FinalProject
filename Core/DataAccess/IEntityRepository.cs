@@ -1,4 +1,4 @@
-﻿using Entities.Abstract;
+﻿using Core.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -6,7 +6,7 @@ using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DataAccess.Abstract
+namespace Core.DataAccess
 {
     //Her Dal sınıfında nesnemizin ismi ile methodlar oluşturmak yerine Generic yapı kullanabiliriz, bu repository sınıfda hepsinde olan methodlar yer alır.
     
